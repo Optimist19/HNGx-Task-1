@@ -50,8 +50,10 @@ const seconds = currentUTCTime.getUTCSeconds();
 console.log(`${hours}:${minutes}:${seconds}`);
 
 
-const childTime = `<p>Current UTC Time: ${hours} : ${minutes} : ${seconds}</p>`
+// const childTime = `<p>Current UTC Time: ${hours} : ${minutes} : ${seconds}</p>`
 
-utcTime.innerHTML = childTime
+const time = `Current UTC Time: ${hours} : ${minutes} : ${seconds}`
+
+utcTime.textContent = time
 
 

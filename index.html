@@ -8,28 +8,31 @@
 </head>
 <body>
 	<div class="container">
-		<div class="white-back">
+		
+		<div class="con">
 			<div>
-				<div>
-					<img src="./image/DSC_9774.JPG" alt="Oluwasegun Bamidele">
-				</div>
-				<div class="time-day">
+				<h1 data-testid="slackUserName">Slack Name: Oluwasegun Bamidele</h1>
+			</div>
+			<div>
+				<img src="./image/DSC_9774.JPG" alt="Oluwasegun Bamidele" data-testid="slackDisplayImage">
+			</div>
+			<div class="time-day">
 
-					<div class="day">Day of the week: 
-						<p id="day">
-							Monday
-						</p>
-					</div>
-					<div id="time">Current UTC Time: 
+				<div class="day">Day of the week: 
+					<p id="day" data-testid="currentDayOfTheWeek">
 						
-					</div>
-					<p>Track: Frontend</p>
-					<label>Github:
-						<a href="https://github.com/Optimist19/" target="_blank"> Repo</a>
-					</label>
+					</p>
 				</div>
+				<div id="time" data-testid="currentUTCTime"> 
+					
+				</div>
+				<p  data-testid="myTrack">Track: Frontend</p>
+				<label>Github:
+					<a href="https://github.com/Optimist19/" target="_blank" data-testid="githubURL"> Repo</a>
+				</label>
 			</div>
 		</div>
+		
 	</div>
 
 	<script src="./index.js"></script>

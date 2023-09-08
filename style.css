@@ -3,11 +3,8 @@
 	margin: 0;
 }
 
-body{
-	background-color: black;
-}
 
-.white-back{
+.container{
 	width: 60vw;
 	height: 100vh;
 	background-color: white;
@@ -17,9 +14,16 @@ body{
 	align-items: center;
 }
 
+.container .con{
+	display: flex;
+	justify-content: center;
+	/* align-items: ; */
+	flex-direction: column;
+}
+
 img{
 	width: 25vw;
 	height: 55vh;
-	border-radius: 50%;
-	object-fit: cover;
+	object-fit: contain;
 }
+
