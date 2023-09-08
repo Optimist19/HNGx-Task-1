@@ -12,27 +12,27 @@ if (getDay === 1){
 	
 }else if(getDay === 2){
 	
-	day.textContent = "Tuesday"
+	day.textContent = "Day of the week: Tuesday"
 	
 }else if(getDay === 3){
 	
-	day.textContent = "Wednesday"
+	day.textContent = "Day of the week: Wednesday"
 	
 }else if(getDay === 4){
 	
-	day.textContent = "Thursday"
+	day.textContent = "Day of the week: Thursday"
 	
 }else if(getDay === 5){
 	
-	day.textContent = "Friday"
+	day.textContent = "Day of the week: Friday"
 	
 }else if(getDay === 6){
 	
-	day.textContent = "Saturday"
+	day.textContent = "Day of the week: Saturday"
 	
 }else if(getDay === 7){
 
-	day.textContent = "Sunday"
+	day.textContent = "Day of the week: Sunday"
 	
 }
 

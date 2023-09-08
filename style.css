@@ -17,13 +17,24 @@
 .container .con{
 	display: flex;
 	justify-content: center;
-	/* align-items: ; */
+	align-items: center;
 	flex-direction: column;
+	line-height: 6vh;
+}
+
+.container .con .div-a{
+	background-color: black;
+	padding: 0 2vw;
 }
 
 img{
 	width: 25vw;
 	height: 55vh;
 	object-fit: contain;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
 
